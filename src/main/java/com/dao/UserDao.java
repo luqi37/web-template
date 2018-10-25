@@ -7,4 +7,6 @@ import com.pojo.User;
  */
 public interface UserDao {
     User selectUser(long id);
+
+    int deleteUser(long id);
 }
